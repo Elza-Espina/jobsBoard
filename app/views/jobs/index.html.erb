@@ -1,0 +1,23 @@
+<div class="container">
+	
+	<h1><b>Jobs</b></h1>
+	<p ><%= link_to "POST A JOB", new_job_path, class: "button" %></p>
+	<div class="jobDiv">
+  <table>
+  <tr>
+    <th >Title</th>
+    <th>Company</th>
+    <th>Link</th>
+  </tr>
+		<% @jobs.each_with_index do |job, index| %>
+  		<tr>
+  			<td><b><%= job.title %></b></td>
+  			<td><%= job.company %></td>
+  			<td><%= link_to job.url, :class=> "link" %></td>	
+  		</tr>
+  		<% end %>
+      </table>
+	</div>
+  <p align="right">E. Espina</p>
+
+</div>

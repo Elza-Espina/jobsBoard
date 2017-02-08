@@ -1,0 +1,81 @@
+@import "bootstrap";
+
+body {
+  background: #fedab3;
+  color: #758eb6;
+  font: 14px/1.5 Helvetica, Arial, sans-serif;
+  margin: 20px auto;
+  width: 60%;
+}
+.button {
+ color: #eeeeee;
+  text-decoration: none;
+  background-color:  #fe7b89;
+  padding: 2px 6px 2px 6px;
+}
+
+.button:hover{ 
+color:  #fe7b89;
+    border: 1px solid #fe7b89;
+    background-color:  #eeeeee;
+    text-decoration: none;
+
+}
+.container{
+    margin-top:60px;
+    margin-left:-150px;
+}
+
+table{
+	width: 100%;
+}
+
+td, th{    
+    padding:1%;
+	text-align: center;
+}
+
+th{
+    color:white;
+    border: solid 1px  #fedab3;
+    background-color:  #758eb6;
+    font-size: 16px;
+}
+
+td{
+    border-bottom: solid 1px #758eb6;
+    border-right: solid 5px  #fedab3;
+    font-size: 15px;
+    color:  #fe7b89;
+}
+
+a{
+    color:#8a5062;
+}
+
+.input label{
+  	display: block;	
+}
+
+div.form-group div{
+	width: 50%;
+	margin: 0 auto;
+	input{
+		width: 100%;
+        background-color: rgba(255,255,255,0.4);
+        border: solid 1px #fe7b89;
+	}
+}
+.newJob{
+    margin-top:10%;
+    padding:30px;
+    border: solid 1px #758eb6;
+}
+
+.panelHeading{
+    color:  #fe7b89; 
+}
+
+.panelBody{
+    padding:20px;
+}
